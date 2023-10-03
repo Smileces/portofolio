@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    color: rgb(202, 202, 202);
+    background-color: rgb(223, 242, 250);
+    font-family: 'Plus Jakarta Sans',sans-serif;
+}
+
+.background-image{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(202, 202, 202);
+}
+
+h1{ 
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    padding-top: 10px;
+    color: rgb(255, 89, 0);
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: greenyellow;
+    font-weight: bold;
+    transition: all .50s ease;
+}
+
+.menu a:hover{
+    color: rgb(255, 89, 0);
+}
+
+.dvlp{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    font-weight: bold;
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    transition: all .50s ease;
+
+}
+
+.dvlp:hover{
+    color: greenyellow;
+}
+
+
+
+@media (min-width:2300px){
+    .dvlp{
+        font-size: 200px;
+
+    }
+}
+
+@media (max-width:1619px){
+    .dvlp{
+        font-size: 150px;
+        padding-top: 200px;
+
+    }
+}
+
+@media (max-width:1066px){
+    .dvlp{
+        font-size: 110px;
+        padding-top: 260px;
+    }
+}
+
+@media (max-width:801px){
+    .dvlp{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:548px){
+    .dvlp{
+        font-size: 60px;
+    }
+}
+
+@media (max-width:450px){
+    .dvlp{
+        font-size: 50px;
+        padding-top: 150px;
+    }
+}
+
+.menu2{
+    gap: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+.menu2 i{
+    font-size: 50px;
+    color: rgb(255, 89, 0);
+    transition: all .50s ease;
+}
+
+.menu2 i:hover{
+    color: greenyellow;
+}
+
+.cprt{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+
+.Categorii{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 8%;
+ }
+ 
+ .Categorii img{
+    max-width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .50s ease;
+ }
+
+ .Categorii img:hover{
+    transform: translateY(-8px);
+ }
+
+ @media (max-width:1090px){
+    .Categorii{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding: 10%;
+        font-size: 7px;
+        margin-top: 0;
+    }
+    .dspcat{
+        margin-bottom: 20px;
+    }
+    .Categorii img{
+        max-width: 80%;
+    }
+
+ }
+
+
+ .abtme{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    color: rgb(255, 89, 0);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 10px 10px 10px greenyellow;
+ }
+
+ @media (max-width:1090px){
+    .abtme{
+        text-align: center;
+        margin-top: 20%;
+        font-size: 25px;
+        color: rgb(255, 89, 0);
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+     }
+ }
+
+ @media (max-width:590px){
+    .abtme{
+        text-align: center;
+        margin-top: 30%;
+        font-size: 25px;
+        color: rgb(255, 89, 0);
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+     }
+ }
